@@ -1,3 +1,7 @@
+body {
+  margin: unset;
+}
+
 .show_image {
   width: 100px;
 }
@@ -5,6 +9,10 @@
 header {
   display: flex;
   justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: gray;
+  align-items: center;
 }
 
 .logo > img {
@@ -22,4 +30,13 @@ header {
 .about,
 .contact {
   width: 15%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  background-color: gray;
 }
