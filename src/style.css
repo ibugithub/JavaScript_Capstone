@@ -1,3 +1,25 @@
 .show_image {
   width: 100px;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo > img {
+  width: 130px;
+}
+
+.logo {
+  width: 40%;
+}
+
+.show {
+  width: 23%;
+}
+
+.about,
+.contact {
+  width: 15%;
+}
